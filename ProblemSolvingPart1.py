@@ -6,12 +6,12 @@
 # new_string = ''
 # letter_counter = ''
 # i = ''
+comp_str = []
 
-
-# def user_input ():
-#     word_phrase = input ('Please type the word or phrase you would like to use: ')
-#     selected_value = word_phrase
-#     return word_phrase
+def user_input ():
+    word_phrase = input ('Please type the word or phrase you would like to use: ')
+    selected_value = word_phrase
+    return word_phrase
 
 # def word_reverse_tool ():
 #     new_word_phrase = ''
@@ -40,20 +40,33 @@
 #     return (new_string)
 
 # def compression():
-#     letter_counter = (0)
+#     letter_counter = int(0)
+#     list_of_letters = []
 #     i = (0)
-#     index = ''
-#     user_input()
-#     while i < 1:
+#     user_string = user_input()
+#     while letter_counter < len(user_string) -1:
+#         if (list_of_letters[i]) == (list_of_letters[i+1]):
+#             letter_counter += 1
+#             #list_of_letters = list_of_letters + str(user_string) + str(letter_counter)
+#         elif (list_of_letters[i]) != (list_of_letters[i+1]):
+#             list_of_letters = list_of_letters + str(user_string) + str(letter_counter)
 
-#         if index == index + 1:
-#             letter_counter +=1
-#         else:
-
-
-#         i +=1
-
+#         print(list_of_letters)
 
 
+def compression():
+    letter_counter = int(0)
+    list_of_letters = []
+    i = (0)
+    user_string = user_input()
+    while letter_counter < len(user_string) -1:
+        if (user_string[i]) == (user_string[i+1]):
+            letter_counter += 1
+            #list_of_letters = list_of_letters + str(user_string) + str(letter_counter)
+        elif (user_string[i]) != (user_string[i+1]):
+            list_of_letters =str(user_string) + str(letter_counter)
 
+        print(list_of_letters)
+
+compression()
 
