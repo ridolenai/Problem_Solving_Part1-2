@@ -1,7 +1,6 @@
 
 
 
-# split_words = ' '
 # word_phrase = []
 # caps_list = []
 # new_string = ''
@@ -54,6 +53,9 @@
 
 #         i +=1
 
+
+
+
 # def prime_number():
 #     is_prime = ''
 #     for first_number in range (2, 101):
@@ -66,22 +68,22 @@
 #                     print(first_number)
                     
     
-def fibonacci():
-    number = int(input ('Enter a positive number: '))
-    first = 0
-    second = 1
-    change_variable = int ()
-    counter = 0
-    while counter < number:
-        print (first)
-        tracking_number = first + second
-        first = second
-        second = tracking_number
-        counter += 1
+# def fibonacci():
+#     number = int(input ('Enter a positive number: '))
+#     first = 0
+#     second = 1
+#     change_variable = int ()
+#     counter = 0
+#     while counter < number:
+#         print (first)
+#         tracking_number = first + second
+#         first = second
+#         second = tracking_number
+#         counter += 1
         
 
-
-
-fibonacci()
-
+def happy_numbers():
+    number =  (input ('Enter a number: '))
     
+
+happy_numbers()
